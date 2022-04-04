@@ -1,0 +1,159 @@
+body {
+    text-align: center;
+    background-image: url("spacebackgif.gif"), url("astronaut.png");
+    background-position: center, left right;
+    background-repeat: repeat, no-repeat;
+    background-color: #431f44be;
+    background-blend-mode:screen;
+   }
+
+header { 
+    background-color: hsla(281, 60%, 17%, 0.774);
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #d6753dad;
+    ;
+    font-family: Impact;
+    border-radius: 10px 20px;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(131, 98, 129);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(9, 0, 32);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.795);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .typewriter h1 {
+    color: rgba(255, 255, 255, 0.911);
+    font-family:monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .20em solid rgb(0, 0, 0); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .20em; /* Adjust as needed */
+    animation: 
+      typing 4.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: rgb(142, 121, 187) }
+    50% { border-color: rgb(40, 4, 87) }
+  }
+
+
+  .a-box {
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+  }
+  
+  .img-container {
+      height: 230px;
+      width: 200px;
+      overflow: hidden;
+      border-radius: 0px 0px 20px 20px;
+      display: inline-block;
+  }
+  
+  .img-container img {
+      transform: skew(0deg, -13deg);
+      height: 250px;
+      margin: -35px 0px 0px -70px;
+  }
+  
+  .inner-skew {
+      display: inline-block;
+      border-radius: 20px;
+      overflow: hidden;
+      padding: 0px;
+      transform: skew(0deg, 13deg);
+      font-size: 0px;
+      margin: 30px 0px 0px 0px;
+      background: #020202;
+      height: 250px;
+      width: 200px;
+  }
+  
+  .text-container {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 120px 20px 20px 20px;
+    border-radius: 20px;
+    background: #d6753d;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    font-size: 14px;
+  }
+  
+  .text-container h3 {
+    margin: 20px 0px 10px 0px;
+    color: #ffffff;
+    font-size: 18px;
+  }
